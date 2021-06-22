@@ -8,6 +8,7 @@ import (
 	"time"
 
 	_ "github.com/ClickHouse/clickhouse-go" // register the ClickHouse driver
+	_ "github.com/SAP/go-hdb/driver"        // register the HANA driver
 	_ "github.com/denisenkom/go-mssqldb"    // register the MS-SQL driver
 	_ "github.com/go-sql-driver/mysql"      // register the MySQL driver
 	_ "github.com/jackc/pgx/v4/stdlib"      // register the pgx PostgreSQL driver
